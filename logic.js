@@ -15,11 +15,14 @@ let p1EL=document.getElementById("p1")
 
 
 
-let passwor1="";
-let passwor2="";
+
 
 
 btnEl.addEventListener("click",function(){
+    let passwor1="";
+
+let passwor2="";
+    
 let len = characters.length;    
 for(let i = 1 ; i<=12;i++)
 {
